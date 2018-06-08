@@ -11,7 +11,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryFragmentAdapter extends FragmentPagerAdapter {
 
-    public Context mContext;
+    private Context mContext;
 
     public CategoryFragmentAdapter(Context context, FragmentManager fm) {
         super(fm);
@@ -41,13 +41,13 @@ public class CategoryFragmentAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.food_drink).toUpperCase();
+            return mContext.getString(R.string.food_drink);
         } else if (position == 1) {
-            return mContext.getString(R.string.entertainment).toUpperCase();
+            return mContext.getString(R.string.entertainment);
         } else if (position == 2) {
-            return mContext.getString(R.string.arts).toUpperCase();
+            return mContext.getString(R.string.arts);
         } else {
-            return mContext.getString(R.string.travel).toUpperCase();
+            return mContext.getString(R.string.travel);
         }
     }
 }
