@@ -14,22 +14,19 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FoodDrinkFragment extends Fragment {
+public class TheatreFragment extends Fragment {
 
 
-    public FoodDrinkFragment() {
+    public TheatreFragment() {
         // Required empty public constructor
     }
-
-    // TODO - create item class
-    // TODO - create custom adapter
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        // create list of restaurant/bar locations
+        // create list of theatre locations
         final ArrayList<Location> locations = new ArrayList<>();
         locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address), getActivity().getString(R.string.wyorks_playhouse_description)));
         locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), "Quarry Hill", "WYHP Description"));

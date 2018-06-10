@@ -29,7 +29,7 @@ public class CategoryFragmentAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return new FoodDrinkFragment();
         } else if (position == 1) {
-            return new EntertainmentFragment();
+            return new TheatreFragment();
         } else if (position == 2) {
             return new ArtsFragment();
         } else {
@@ -43,7 +43,7 @@ public class CategoryFragmentAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return mContext.getString(R.string.food_drink);
         } else if (position == 1) {
-            return mContext.getString(R.string.entertainment);
+            return mContext.getString(R.string.theatre);
         } else if (position == 2) {
             return mContext.getString(R.string.arts);
         } else {
