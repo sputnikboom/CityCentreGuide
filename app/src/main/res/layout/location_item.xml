@@ -2,8 +2,12 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="4dp"
+    android:paddingTop="8dp"
+    android:layout_height="wrap_content">
 
     <!-- TODO add images to item -->
 
@@ -15,20 +19,19 @@
         <TextView
             android:id="@+id/location_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Name" />
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Name"
+            android:paddingBottom="2dp"/>
 
         <TextView
             android:id="@+id/location_address"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="location" />
-
-        <TextView
-            android:id="@+id/location_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Description" />
+            android:layout_height="40dp"
+            android:textStyle="italic"
+            android:text="location"
+            android:paddingBottom="4dp"/>
 
     </LinearLayout>
 

@@ -28,10 +28,13 @@ public class TheatreFragment extends Fragment {
 
         // create list of theatre locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address), getActivity().getString(R.string.wyorks_playhouse_description)));
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), "Quarry Hill", "WYHP Description"));
-        locations.add(new Location(getActivity().getString(R.string.lab), "Quarry Hill", "WYHP Description"));
-        // TODO more locations
+        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address)));
+        locations.add(new Location(getActivity().getString(R.string.lab), getActivity().getString(R.string.lab_address)));
+        locations.add(new Location(getActivity().getString(R.string.holbeck_ballroom), getActivity().getString(R.string.holbeck_ballroom_address)));
+        locations.add(new Location(getActivity().getString(R.string.northern_ballet), getActivity().getString(R.string.northern_ballet_address)));
+        locations.add(new Location(getActivity().getString(R.string.carriageworks), getActivity().getString(R.string.carriageworks_address)));
+        locations.add(new Location(getActivity().getString(R.string.grand_theatre), getActivity().getString(R.string.grand_theatre_address)));
+        // TODO add images
 
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

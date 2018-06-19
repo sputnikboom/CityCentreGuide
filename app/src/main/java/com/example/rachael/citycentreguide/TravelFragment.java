@@ -28,8 +28,11 @@ public class TravelFragment extends Fragment {
 
         // create list of travel option locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address), getActivity().getString(R.string.wyorks_playhouse_description)));
-        //TODO add in locations
+        locations.add(new Location(getActivity().getString(R.string.bus_station), getActivity().getString(R.string.bus_station_address)));
+        locations.add(new Location(getActivity().getString(R.string.train_station), getActivity().getString(R.string.train_station_address)));
+        locations.add(new Location(getActivity().getString(R.string.bike_routes), getActivity().getString(R.string.bike_routes_address)));
+        locations.add(new Location(getActivity().getString(R.string.water_taxi), getActivity().getString(R.string.water_taxi_address)));
+        //TODO add images
 
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

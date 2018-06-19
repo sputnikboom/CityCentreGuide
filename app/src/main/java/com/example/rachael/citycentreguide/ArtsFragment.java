@@ -26,13 +26,17 @@ public class ArtsFragment extends Fragment {
 
         // create list of art/gallery locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address), getActivity().getString(R.string.wyorks_playhouse_description)));
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), "Quarry Hill", "WYHP Description"));
-        locations.add(new Location(getActivity().getString(R.string.lab), "Quarry Hill", "WYHP Description"));
-        // TODO more locations
+        locations.add(new Location(getActivity().getString(R.string.leeds_art_gallery), getActivity().getString(R.string.leeds_art_gallery_address)));
+        locations.add(new Location(getActivity().getString(R.string.henry_moore), getActivity().getString(R.string.henry_moore_address)));
+        locations.add(new Location(getActivity().getString(R.string.tetley), getActivity().getString(R.string.tetley_address)));
+        locations.add(new Location(getActivity().getString(R.string.galley_164), getActivity().getString(R.string.gallry_164_address)));
+
+        // TODO add images
 
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
+
+
         ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 

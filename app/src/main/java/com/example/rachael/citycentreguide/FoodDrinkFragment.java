@@ -31,10 +31,13 @@ public class FoodDrinkFragment extends Fragment {
 
         // create list of restaurant/bar locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address), getActivity().getString(R.string.wyorks_playhouse_description)));
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), "Quarry Hill", "WYHP Description"));
-        locations.add(new Location(getActivity().getString(R.string.lab), "Quarry Hill", "WYHP Description"));
-        // TODO more locations
+        locations.add(new Location(getActivity().getString(R.string.headrow_house), getActivity().getString(R.string.headrow_house_address)));
+        locations.add(new Location(getActivity().getString(R.string.cielo_blanco), getActivity().getString(R.string.cielo_blanco_address)));
+        locations.add(new Location(getActivity().getString(R.string.brunswick), getActivity().getString(R.string.brunswick_address)));
+        locations.add(new Location(getActivity().getString(R.string.trinity_kitchen), getActivity().getString(R.string.trinity_kitchen_address)));
+        locations.add(new Location(getActivity().getString(R.string.stew_oyster), getActivity().getString(R.string.stew_oycter_address)));
+        locations.add(new Location(getActivity().getString(R.string.belgrave), getActivity().getString(R.string.belgrave_address)));
+        // TODO add images
 
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

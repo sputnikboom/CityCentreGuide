@@ -39,13 +39,9 @@ public class LocationAdapter extends ArrayAdapter<Location> {
             TextView locationAddressTextView = listItemView.findViewById(R.id.location_address);
             locationAddressTextView.setText(currentLocation.getLocationAddress());
 
-            // as above for location description
-            TextView locationDescriptionTextView = listItemView.findViewById(R.id.location_description);
-            locationDescriptionTextView.setText(currentLocation.getLocationDescription());
-
             // TODO add images to adapter
 
-            // returns the whole list item (3 text views) so it's shown in the list layout
+            // returns the whole list item (2 text views) so it's shown in the list layout
             return listItemView;
         }
     }

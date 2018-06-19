@@ -23,13 +23,6 @@
     <string name="northern_ballet_address">Quarry Hill</string>
     <string name="carriageworks_address">Millennium Square</string>
     <string name="grand_theatre_address">New Briggate</string>
-    <!-- Descriptions -->
-    <string name="wyorks_playhouse_description"></string>
-    <string name="lab_description"></string>
-    <string name="holbeck_ballroom_description"></string>
-    <string name="northern_ballet_description"></string>
-    <string name="carriageworks_description"></string>
-    <string name="grand_theatre_description"></string>
 
     <!-- Arts Locations -->
 s
@@ -41,13 +34,8 @@ s
     <!-- Addresses -->
     <string name="leeds_art_gallery_address">The Headrow</string>
     <string name="henry_moore_address">The Headrow</string>
-    <string name="tetley_address"></string>
+    <string name="tetley_address">Hunslet Road</string>
     <string name="gallry_164_address">Duke Street</string>
-    <!-- Descriptions -->
-    <string name="leeds_art_gallery_description"></string>
-    <string name="henry_moore_description"></string>
-    <string name="tetley_description"></string>
-    <string name="gallery_164_description"></string>
 
     <!-- Food & Drink Locations -->
 
@@ -59,23 +47,14 @@ s
     <string name="stew_oyster">Stew &amp; Oyster</string>
     <string name="belgrave">Belgrave Canteen &amp; Music Hall</string>
     <!-- Addresses -->
-    <string name="headrow_house_address">Headrow House</string>
-    <string name="cielo_blanco_address">Headrow House</string>
-    <string name="brunswick_address">Headrow House</string>
-    <string name="trinity_kitchen_address">Headrow House</string>
-    <string name="stew_oycter_address">Headrow House</string>
-    <string name="belgrave_address">Headrow House</string>
-    <!-- Descriptions -->
-    <string name="headrow_house_description">Headrow House</string>
-    <string name="cielo_blanco_description">Headrow House</string>
-    <string name="brunswick_description">Headrow House</string>
-    <string name="trinity_kitchen_description">Headrow House</string>
-    <string name="stew_oyster_description">Headrow House</string>
-    <string name="belgrave_description">Headrow House</string>
+    <string name="headrow_house_address">The Headrow</string>
+    <string name="cielo_blanco_address">Trinity Leeds</string>
+    <string name="brunswick_address">North street</string>
+    <string name="trinity_kitchen_address">Trinity Leeds</string>
+    <string name="stew_oycter_address">The Calls</string>
+    <string name="belgrave_address">Belgrave Street</string>
 
-
-
-    <!-- Travel -->
+    <!-- Travel Locations -->
 
     <!-- names -->
     <string name="bus_station">By Bus</string>
@@ -83,16 +62,9 @@ s
     <string name="bike_routes">By Bike</string>
     <string name="water_taxi">By Water Taxi</string>
     <!-- Addresses -->
-    <string name="bus_station_address">By Bus</string>
-    <string name="train_station_address">By Bus</string>
-    <string name="bike_routes_address">By Bus</string>
-    <string name="water_taxi_address">By Bus</string>
-    <!-- Description -->
-    <string name="bus_station_description">By Bus</string>
-    <string name="train_station_description">By Bus</string>
-    <string name="bike_routes_description">By Bus</string>
-    <string name="water_taxi_description">By Bus</string>
-
-    <!-- TODO location descriptions -->
+    <string name="bus_station_address">Dyer Street</string>
+    <string name="train_station_address">New Station Street</string>
+    <string name="bike_routes_address">Map available at VisitLeeds, The Headrow</string>
+    <string name="water_taxi_address">Leeds Docks &amp; Granary Wharf</string>
 
 </resources>
