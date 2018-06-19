@@ -26,10 +26,10 @@ public class ArtsFragment extends Fragment {
 
         // create list of art/gallery locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getActivity().getString(R.string.leeds_art_gallery), getActivity().getString(R.string.leeds_art_gallery_address)));
-        locations.add(new Location(getActivity().getString(R.string.henry_moore), getActivity().getString(R.string.henry_moore_address)));
-        locations.add(new Location(getActivity().getString(R.string.tetley), getActivity().getString(R.string.tetley_address)));
-        locations.add(new Location(getActivity().getString(R.string.galley_164), getActivity().getString(R.string.gallry_164_address)));
+        locations.add(new Location(getActivity().getString(R.string.leeds_art_gallery), getActivity().getString(R.string.leeds_art_gallery_address), R.drawable.leeds_art_gallery));
+        locations.add(new Location(getActivity().getString(R.string.henry_moore), getActivity().getString(R.string.henry_moore_address), R.drawable.henry_moore_institute));
+        locations.add(new Location(getActivity().getString(R.string.tetley), getActivity().getString(R.string.tetley_address), R.drawable.the_tetley));
+        locations.add(new Location(getActivity().getString(R.string.galley_164), getActivity().getString(R.string.gallry_164_address), R.drawable.gallery_164));
 
         // TODO add images
 

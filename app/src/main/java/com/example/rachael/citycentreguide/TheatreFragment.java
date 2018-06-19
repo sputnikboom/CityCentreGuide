@@ -28,12 +28,12 @@ public class TheatreFragment extends Fragment {
 
         // create list of theatre locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address)));
-        locations.add(new Location(getActivity().getString(R.string.lab), getActivity().getString(R.string.lab_address)));
-        locations.add(new Location(getActivity().getString(R.string.holbeck_ballroom), getActivity().getString(R.string.holbeck_ballroom_address)));
-        locations.add(new Location(getActivity().getString(R.string.northern_ballet), getActivity().getString(R.string.northern_ballet_address)));
-        locations.add(new Location(getActivity().getString(R.string.carriageworks), getActivity().getString(R.string.carriageworks_address)));
-        locations.add(new Location(getActivity().getString(R.string.grand_theatre), getActivity().getString(R.string.grand_theatre_address)));
+        locations.add(new Location(getActivity().getString(R.string.wyorks_playhouse), getActivity().getString(R.string.wyorks_playhouse_address), R.drawable.west_yorkshire_playhouse));
+        locations.add(new Location(getActivity().getString(R.string.lab), getActivity().getString(R.string.lab_address), R.drawable.live_art_bistro));
+        locations.add(new Location(getActivity().getString(R.string.holbeck_ballroom), getActivity().getString(R.string.holbeck_ballroom_address), R.drawable.holbeck_undergound_ballroom));
+        locations.add(new Location(getActivity().getString(R.string.northern_ballet), getActivity().getString(R.string.northern_ballet_address), R.drawable.northern_ballet));
+        locations.add(new Location(getActivity().getString(R.string.carriageworks), getActivity().getString(R.string.carriageworks_address), R.drawable.carriageworks));
+        locations.add(new Location(getActivity().getString(R.string.grand_theatre), getActivity().getString(R.string.grand_theatre_address), R.drawable.grand_theatre));
         // TODO add images
 
         // creates a LocationAdapter

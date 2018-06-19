@@ -31,12 +31,12 @@ public class FoodDrinkFragment extends Fragment {
 
         // create list of restaurant/bar locations
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(getActivity().getString(R.string.headrow_house), getActivity().getString(R.string.headrow_house_address)));
-        locations.add(new Location(getActivity().getString(R.string.cielo_blanco), getActivity().getString(R.string.cielo_blanco_address)));
-        locations.add(new Location(getActivity().getString(R.string.brunswick), getActivity().getString(R.string.brunswick_address)));
-        locations.add(new Location(getActivity().getString(R.string.trinity_kitchen), getActivity().getString(R.string.trinity_kitchen_address)));
-        locations.add(new Location(getActivity().getString(R.string.stew_oyster), getActivity().getString(R.string.stew_oycter_address)));
-        locations.add(new Location(getActivity().getString(R.string.belgrave), getActivity().getString(R.string.belgrave_address)));
+        locations.add(new Location(getActivity().getString(R.string.headrow_house), getActivity().getString(R.string.headrow_house_address), R.drawable.headrow_house));
+        locations.add(new Location(getActivity().getString(R.string.cielo_blanco), getActivity().getString(R.string.cielo_blanco_address), R.drawable.cielo_blanco));
+        locations.add(new Location(getActivity().getString(R.string.brunswick), getActivity().getString(R.string.brunswick_address), R.drawable.brunswick));
+        locations.add(new Location(getActivity().getString(R.string.trinity_kitchen), getActivity().getString(R.string.trinity_kitchen_address), R.drawable.trinity_kitchens));
+        locations.add(new Location(getActivity().getString(R.string.stew_oyster), getActivity().getString(R.string.stew_oycter_address), R.drawable.stew_and_oyster));
+        locations.add(new Location(getActivity().getString(R.string.belgrave), getActivity().getString(R.string.belgrave_address), R.drawable.belgrave));
         // TODO add images
 
         // creates a LocationAdapter

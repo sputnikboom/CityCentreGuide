@@ -9,7 +9,12 @@
     android:paddingTop="8dp"
     android:layout_height="wrap_content">
 
-    <!-- TODO add images to item -->
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/live_art_bistro"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
