@@ -37,7 +37,6 @@ public class FoodDrinkFragment extends Fragment {
         locations.add(new Location(getActivity().getString(R.string.trinity_kitchen), getActivity().getString(R.string.trinity_kitchen_address), R.drawable.trinity_kitchens));
         locations.add(new Location(getActivity().getString(R.string.stew_oyster), getActivity().getString(R.string.stew_oycter_address), R.drawable.stew_and_oyster));
         locations.add(new Location(getActivity().getString(R.string.belgrave), getActivity().getString(R.string.belgrave_address), R.drawable.belgrave));
-        // TODO add images
 
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

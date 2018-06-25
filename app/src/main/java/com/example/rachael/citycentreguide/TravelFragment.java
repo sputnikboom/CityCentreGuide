@@ -32,7 +32,6 @@ public class TravelFragment extends Fragment {
         locations.add(new Location(getActivity().getString(R.string.train_station), getActivity().getString(R.string.train_station_address), R.drawable.train_station));
         locations.add(new Location(getActivity().getString(R.string.bike_routes), getActivity().getString(R.string.bike_routes_address), R.drawable.cycling));
         locations.add(new Location(getActivity().getString(R.string.water_taxi), getActivity().getString(R.string.water_taxi_address), R.drawable.water_taxi));
-        //TODO add images
 
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

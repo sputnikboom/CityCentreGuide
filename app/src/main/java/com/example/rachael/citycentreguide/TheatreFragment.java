@@ -34,7 +34,6 @@ public class TheatreFragment extends Fragment {
         locations.add(new Location(getActivity().getString(R.string.northern_ballet), getActivity().getString(R.string.northern_ballet_address), R.drawable.northern_ballet));
         locations.add(new Location(getActivity().getString(R.string.carriageworks), getActivity().getString(R.string.carriageworks_address), R.drawable.carriageworks));
         locations.add(new Location(getActivity().getString(R.string.grand_theatre), getActivity().getString(R.string.grand_theatre_address), R.drawable.grand_theatre));
-        // TODO add images
 
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);

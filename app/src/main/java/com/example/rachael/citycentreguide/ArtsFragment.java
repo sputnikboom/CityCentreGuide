@@ -31,8 +31,6 @@ public class ArtsFragment extends Fragment {
         locations.add(new Location(getActivity().getString(R.string.tetley), getActivity().getString(R.string.tetley_address), R.drawable.the_tetley));
         locations.add(new Location(getActivity().getString(R.string.galley_164), getActivity().getString(R.string.gallry_164_address), R.drawable.gallery_164));
 
-        // TODO add images
-
         // creates a LocationAdapter
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
